@@ -10,7 +10,7 @@ urlpatterns = [
     path(route='login', view=views.registration, name='login'),
 
     # path for login
-    path(route='login', view=views.login_user, name='login'),
+    path(route='registration', view=views.login_user, name='registration'),
 
     # path for logout
     path(route='logout', view=views.logout_request, name='logout'),
